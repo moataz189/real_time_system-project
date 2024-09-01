@@ -1,0 +1,296 @@
+[4.585s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[4.585s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74b5239415d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74b5239410c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74b5239410c0>>)
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.497s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/motaz/iris_files/iris'
+[10.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.500s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.505s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[13.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[13.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[13.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[13.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[13.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[13.814s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[13.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[13.815s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[13.845s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[13.846s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[13.847s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[13.848s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[13.877s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[13.879s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[13.881s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[13.882s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[13.882s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[13.883s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[13.883s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[13.884s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[13.884s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[13.884s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[13.884s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[13.885s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[13.885s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[13.885s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[13.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[13.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[13.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[13.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[13.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[13.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[13.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[13.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[13.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[13.913s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[13.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[13.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[13.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[13.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[13.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extensions ['ignore', 'ignore_ament_install']
+[13.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extension 'ignore'
+[13.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extension 'ignore_ament_install'
+[13.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extensions ['colcon_pkg']
+[13.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extension 'colcon_pkg'
+[13.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extensions ['colcon_meta']
+[13.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extension 'colcon_meta'
+[13.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extensions ['ros']
+[13.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/iris_drone) by extension 'ros'
+[14.072s] DEBUG:colcon.colcon_core.package_identification:Package 'src/iris_drone' with type 'ros.ament_python' and name 'iris_drone'
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore'
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ignore_ament_install'
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_pkg']
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_pkg'
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['colcon_meta']
+[14.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'colcon_meta'
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['ros']
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'ros'
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['cmake', 'python']
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'cmake'
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python'
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extensions ['python_setup_py']
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping) by extension 'python_setup_py'
+[14.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore'
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ignore_ament_install'
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_pkg']
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_pkg'
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['colcon_meta']
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'colcon_meta'
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extensions ['ros']
+[14.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/openslam_gmapping) by extension 'ros'
+[14.077s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[14.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore'
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ignore_ament_install'
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_pkg']
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_pkg'
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['colcon_meta']
+[14.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'colcon_meta'
+[14.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extensions ['ros']
+[14.081s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_gmapping/slam_gmapping) by extension 'ros'
+[14.084s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_gmapping/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[14.085s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['ignore', 'ignore_ament_install']
+[14.087s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ignore'
+[14.087s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ignore_ament_install'
+[14.087s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['colcon_pkg']
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'colcon_pkg'
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['colcon_meta']
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'colcon_meta'
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['ros']
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ros'
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['cmake', 'python']
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'cmake'
+[14.088s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'python'
+[14.089s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['python_setup_py']
+[14.089s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'python_setup_py'
+[14.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[14.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[14.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[14.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[14.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[14.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[14.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[14.207s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[14.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[14.447s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_args' from command line to 'None'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_target' from command line to 'None'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_clean_first' from command line to 'False'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'cmake_force_configure' from command line to 'False'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'ament_cmake_args' from command line to 'None'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[14.448s] Level 5:colcon.colcon_core.verb:set package 'iris_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.449s] DEBUG:colcon.colcon_core.verb:Building package 'iris_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/motaz/iris_files/iris/build/iris_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/motaz/iris_files/iris/install/iris_drone', 'merge_install': False, 'path': '/home/motaz/iris_files/iris/src/iris_drone', 'symlink_install': False, 'test_result_base': None}
+[14.450s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[14.450s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[14.450s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.451s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[14.451s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[14.452s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[14.453s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[14.454s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[14.455s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.456s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/motaz/iris_files/iris/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/motaz/iris_files/iris/install/openslam_gmapping', 'merge_install': False, 'path': '/home/motaz/iris_files/iris/src/slam_gmapping/openslam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[14.458s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[14.459s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.459s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/motaz/iris_files/iris/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/motaz/iris_files/iris/install/slam_gmapping', 'merge_install': False, 'path': '/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[14.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/motaz/iris_files/iris/src/slam_gmapping/openslam_gmapping' with build type 'ament_cmake'
+[14.464s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/motaz/iris_files/iris/src/slam_gmapping/openslam_gmapping'
+[14.468s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/motaz/iris_files/iris/src/iris_drone' with build type 'ament_python'
+[14.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('iris_drone', 'ament_prefix_path')
+[14.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/ament_prefix_path.ps1'
+[14.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/ament_prefix_path.dsv'
+[14.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/ament_prefix_path.sh'
+[14.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+[16.454s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/motaz/iris_files/iris/src/iris_drone'
+[16.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+[18.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping
+[18.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[18.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping
+[18.780s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping' for CMake module files
+[18.786s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping' for CMake config files
+[18.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[18.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[18.793s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[18.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[18.795s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib'
+[18.795s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/bin'
+[18.795s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib/python3.10/site-packages'
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/bin'
+[18.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[18.798s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[18.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[18.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[18.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[18.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/motaz/iris_files/iris/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[18.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[18.919s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping' for CMake module files
+[18.921s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping' for CMake config files
+[18.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[18.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[18.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[18.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[18.934s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/bin'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/lib/python3.10/site-packages'
+[18.936s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/openslam_gmapping/bin'
+[18.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[18.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[18.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[18.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[18.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[18.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/motaz/iris_files/iris/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[18.940s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping' with build type 'ament_cmake'
+[18.940s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping'
+[18.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[20.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[20.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping
+[20.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[20.589s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping' for CMake module files
+[20.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping
+[20.591s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping' for CMake config files
+[20.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[20.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[20.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[20.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[20.612s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib'
+[20.613s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/bin'
+[20.613s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[20.614s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib/python3.10/site-packages'
+[20.615s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/bin'
+[20.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[20.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[20.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.sh'
+[20.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.bash'
+[20.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[20.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/motaz/iris_files/iris/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[20.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[20.700s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping' for CMake module files
+[20.702s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping' for CMake config files
+[20.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[20.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[20.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[20.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[20.716s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib'
+[20.716s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/bin'
+[20.716s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[20.717s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/lib/python3.10/site-packages'
+[20.717s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/slam_gmapping/bin'
+[20.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[20.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[20.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.sh'
+[20.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.bash'
+[20.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[20.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/motaz/iris_files/iris/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[22.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/motaz/iris_files/iris/src/iris_drone': PYTHONPATH=/home/motaz/iris_files/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/motaz/iris_files/iris/build/iris_drone/build install --record /home/motaz/iris_files/iris/build/iris_drone/install.log --single-version-externally-managed install_data
+[24.655s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone' for CMake module files
+[24.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/motaz/iris_files/iris/src/iris_drone' returned '0': PYTHONPATH=/home/motaz/iris_files/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/motaz/iris_files/iris/build/iris_drone/build install --record /home/motaz/iris_files/iris/build/iris_drone/install.log --single-version-externally-managed install_data
+[24.673s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone' for CMake config files
+[24.677s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone/lib'
+[24.678s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone/bin'
+[24.678s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone/lib/pkgconfig/iris_drone.pc'
+[24.678s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages'
+[24.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('iris_drone', 'pythonpath')
+[24.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/pythonpath.ps1'
+[24.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/pythonpath.dsv'
+[24.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/hook/pythonpath.sh'
+[24.681s] Level 1:colcon.colcon_core.environment:checking '/home/motaz/iris_files/iris/install/iris_drone/bin'
+[24.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(iris_drone)
+[24.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/package.ps1'
+[24.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/package.dsv'
+[24.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/package.sh'
+[24.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/package.bash'
+[24.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/package.zsh'
+[24.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/motaz/iris_files/iris/install/iris_drone/share/colcon-core/packages/iris_drone)
+[24.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.705s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.744s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.790s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.790s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/motaz/iris_files/iris/install/local_setup.ps1'
+[24.792s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/motaz/iris_files/iris/install/_local_setup_util_ps1.py'
+[24.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/motaz/iris_files/iris/install/setup.ps1'
+[24.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/motaz/iris_files/iris/install/local_setup.sh'
+[24.808s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/motaz/iris_files/iris/install/_local_setup_util_sh.py'
+[24.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/motaz/iris_files/iris/install/setup.sh'
+[24.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/motaz/iris_files/iris/install/local_setup.bash'
+[24.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/motaz/iris_files/iris/install/setup.bash'
+[24.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/motaz/iris_files/iris/install/local_setup.zsh'
+[24.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/motaz/iris_files/iris/install/setup.zsh'

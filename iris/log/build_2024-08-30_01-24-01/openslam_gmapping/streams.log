@@ -1,0 +1,79 @@
+[0.106s] Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+[0.475s] [ 13%] Built target sensor_base
+[0.484s] [ 27%] Built target utils
+[0.603s] [ 40%] Built target sensor_range
+[0.655s] [ 54%] Built target sensor_odometry
+[0.748s] [ 77%] Built target scanmatcher
+[0.915s] [100%] Built target gridfastslam
+[2.085s] Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+[2.376s] Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping
+[2.444s] -- Install configuration: ""
+[2.446s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.446s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.447s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include/
+[2.454s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping
+[2.456s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher
+[2.456s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[2.457s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[2.458s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[2.458s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils
+[2.458s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[2.458s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[2.458s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/stat.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/point.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid
+[2.459s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/map.h
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range
+[2.460s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[2.461s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[2.461s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry
+[2.461s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[2.461s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[2.461s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base
+[2.462s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[2.462s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[2.462s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/particlefilter
+[2.462s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[2.462s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log/configuration.h
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[2.463s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[2.464s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[2.464s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[2.466s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[2.474s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[2.474s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[2.475s] -- Installing: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[2.475s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[2.475s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[2.475s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.476s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[2.478s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[2.478s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[2.483s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libgridfastslam.a
+[2.483s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libscanmatcher.a
+[2.491s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.493s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.493s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_base.a
+[2.494s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.495s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.495s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_odometry.a
+[2.499s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_range.a
+[2.503s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libutils.a
+[2.507s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[2.511s] -- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[2.518s] Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping

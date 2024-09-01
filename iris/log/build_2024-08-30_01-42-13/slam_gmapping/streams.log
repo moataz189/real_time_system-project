@@ -1,0 +1,24 @@
+[0.042s] Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[1.474s] [100%] Built target slam_gmapping
+[1.516s] Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[1.608s] Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping
+[1.637s] -- Install configuration: ""
+[1.640s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[1.641s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch
+[1.641s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[1.641s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[1.641s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[1.642s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[1.643s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[1.643s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.dsv
+[1.643s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[1.643s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[1.643s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[1.643s] -- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.xml
+[1.646s] Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping

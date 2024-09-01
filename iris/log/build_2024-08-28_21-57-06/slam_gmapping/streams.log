@@ -1,0 +1,98 @@
+[0.008s] Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/motaz/iris_files/iris/install/slam_gmapping
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.211s] -- Detecting C compile features
+[0.211s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.307s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[0.309s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.782s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.830s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.837s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.847s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.915s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.958s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.971s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.051s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.054s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.154s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.182s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.222s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.233s] -- Looking for pthread.h
+[1.300s] -- Looking for pthread.h - found
+[1.300s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.375s] -- Found Threads: TRUE  
+[1.500s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.518s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.520s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.521s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.527s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.552s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.573s] -- Found openslam_gmapping: 0.1.2 (/home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[1.576s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.654s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.654s] -- Configured cppcheck include dirs: /home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping/include
+[1.654s] -- Configured cppcheck exclude dirs and/or files: 
+[1.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.656s] -- Added test 'lint_cmake' to check CMake code style
+[1.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.657s] -- Added test 'uncrustify' to check C / C++ code style
+[1.657s] -- Configured uncrustify additional arguments: 
+[1.658s] -- Added test 'xmllint' to check XML markup files
+[1.659s] -- Configuring done
+[1.672s] -- Generating done
+[1.674s] -- Build files have been written to: /home/motaz/iris_files/iris/build/slam_gmapping
+[1.684s] Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/motaz/iris_files/iris/install/slam_gmapping
+[1.685s] Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[1.744s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[2.147s] In file included from [01m[K/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[2.147s]                  from [01m[K/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[2.147s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.147s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.147s]       |  [01;35m[K^~~~~~~[m[K
+[4.538s] In file included from [01m[K/home/motaz/iris_files/iris/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[4.538s]                  from [01m[K/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[4.538s]                  from [01m[K/home/motaz/iris_files/iris/src/slam_gmapping/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[4.538s] [01m[K/home/motaz/iris_files/iris/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[4.538s] [01m[K/home/motaz/iris_files/iris/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[4.538s]   140 |         [01;35m[Kif[m[K (count>0)
+[4.538s]       |         [01;35m[K^~[m[K
+[4.538s] [01m[K/home/motaz/iris_files/iris/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[4.539s]   142 |                 [01;36m[Kout[m[K++;
+[4.539s]       |                 [01;36m[K^~~[m[K
+[13.499s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[14.272s] [100%] Built target slam_gmapping
+[14.284s] Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/motaz/iris_files/iris/build/slam_gmapping -- -j8 -l8
+[14.309s] Invoking command in '/home/motaz/iris_files/iris/build/slam_gmapping': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping
+[14.317s] -- Install configuration: ""
+[14.318s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[14.322s] -- Set runtime path of "/home/motaz/iris_files/iris/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[14.322s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.dsv
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[14.323s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[14.324s] -- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.xml
+[14.325s] Invoked command in '/home/motaz/iris_files/iris/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble LD_LIBRARY_PATH=/home/motaz/iris_files/iris/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/motaz/iris_files/iris/build/slam_gmapping

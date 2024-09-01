@@ -1,0 +1,6 @@
+[console_scripts]
+ardupilot = iris_drone.ardupilot:run_sim_vehicle
+mission = iris_drone.mission:main
+odom_pub = iris_drone.odom_publisher:main
+test = iris_drone.test:main
+tf_pub = iris_drone.dynamic_tf:main

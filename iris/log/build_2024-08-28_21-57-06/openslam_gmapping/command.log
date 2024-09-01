@@ -1,0 +1,6 @@
+Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/motaz/iris_files/iris/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/motaz/iris_files/iris/install/openslam_gmapping
+Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/motaz/iris_files/iris/src/slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/motaz/iris_files/iris/install/openslam_gmapping
+Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping
+Invoked command in '/home/motaz/iris_files/iris/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/motaz/iris_files/iris/build/openslam_gmapping

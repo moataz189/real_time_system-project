@@ -1,0 +1,7 @@
+[0.013s] Invoking command in '/home/motaz/iris_files/iris/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/motaz/iris_files/iris/build/openslam_gmapping -- -j8 -l8
+[0.061s] [ 27%] Built target sensor_base
+[0.062s] [ 27%] Built target utils
+[0.082s] [ 54%] Built target sensor_range
+[0.082s] [ 54%] Built target sensor_odometry
+[0.104s] [ 77%] Built target scanmatcher
+[0.127s] [100%] Built target gridfastslam

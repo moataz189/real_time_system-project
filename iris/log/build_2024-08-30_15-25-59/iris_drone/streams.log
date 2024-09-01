@@ -1,0 +1,29 @@
+[4.772s] Invoking command in '/home/motaz/iris_files/iris/src/iris_drone': PYTHONPATH=/home/motaz/iris_files/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/motaz/iris_files/iris/build/iris_drone/build install --record /home/motaz/iris_files/iris/build/iris_drone/install.log --single-version-externally-managed install_data
+[5.856s] running egg_info
+[5.926s] writing ../../build/iris_drone/iris_drone.egg-info/PKG-INFO
+[5.936s] writing dependency_links to ../../build/iris_drone/iris_drone.egg-info/dependency_links.txt
+[5.938s] writing entry points to ../../build/iris_drone/iris_drone.egg-info/entry_points.txt
+[5.940s] writing requirements to ../../build/iris_drone/iris_drone.egg-info/requires.txt
+[5.941s] writing top-level names to ../../build/iris_drone/iris_drone.egg-info/top_level.txt
+[6.101s] reading manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'
+[6.113s] writing manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'
+[6.113s] running build
+[6.114s] running build_py
+[6.117s] copying iris_drone/mission.py -> /home/motaz/iris_files/iris/build/iris_drone/build/lib/iris_drone
+[6.118s] running install
+[6.143s] running install_lib
+[6.217s] running install_data
+[6.217s] copying package.xml -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone
+[6.218s] copying launch/iris.launch.py -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/launch
+[6.223s] copying worlds/odeh.world -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/worlds
+[6.227s] copying urdf/iris_demo.xacro -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/urdf
+[6.230s] running install_egg_info
+[6.311s] removing '/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info' (and everything under it)
+[6.312s] Copying ../../build/iris_drone/iris_drone.egg-info to /home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info
+[6.314s] running install_scripts
+[7.002s] Installing ardupilot script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone
+[7.002s] Installing mission script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone
+[7.002s] Installing odom_pub script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone
+[7.003s] Installing tf_pub script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone
+[7.005s] writing list of installed files to '/home/motaz/iris_files/iris/build/iris_drone/install.log'
+[7.228s] Invoked command in '/home/motaz/iris_files/iris/src/iris_drone' returned '0': PYTHONPATH=/home/motaz/iris_files/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/iris_drone build --build-base /home/motaz/iris_files/iris/build/iris_drone/build install --record /home/motaz/iris_files/iris/build/iris_drone/install.log --single-version-externally-managed install_data

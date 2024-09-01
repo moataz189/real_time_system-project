@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.008609] (iris_drone) JobQueued: {'identifier': 'iris_drone', 'dependencies': OrderedDict()}
+[0.009002] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.009192] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/motaz/iris_files/iris/install/openslam_gmapping')])}
+[0.013209] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.097399] (iris_drone) JobStarted: {'identifier': 'iris_drone'}
+[0.102246] (-) TimerEvent: {}
+[0.187838] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.190340] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.192131] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/motaz/iris_files/iris/build/openslam_gmapping', '--', '-j8', '-l8'], 'cwd': '/home/motaz/iris_files/iris/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'motaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/motaz'), ('OLDPWD', '/home/motaz'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motaz'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/motaz/iris_files/iris/src/iris_drone/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/motaz/iris_files/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/motaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/motaz/iris_files/ardupilot/Tools/autotest:/home/motaz/iris_files/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1398,unix/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ccea288_ad7f_461d_9e36_18ab97c344e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motaz/iris_files/iris/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.204726] (-) TimerEvent: {}
+[0.309174] (-) TimerEvent: {}
+[0.410609] (-) TimerEvent: {}
+[0.516472] (-) TimerEvent: {}
+[0.621219] (-) TimerEvent: {}
+[0.723555] (-) TimerEvent: {}
+[0.825569] (-) TimerEvent: {}
+[0.928576] (-) TimerEvent: {}
+[1.035040] (-) TimerEvent: {}
+[1.143320] (-) TimerEvent: {}
+[1.252887] (-) TimerEvent: {}
+[1.356171] (-) TimerEvent: {}
+[1.460057] (-) TimerEvent: {}
+[1.563227] (-) TimerEvent: {}
+[1.668182] (-) TimerEvent: {}
+[1.774145] (-) TimerEvent: {}
+[1.879676] (-) TimerEvent: {}
+[1.982664] (-) TimerEvent: {}
+[2.088565] (-) TimerEvent: {}
+[2.189600] (-) TimerEvent: {}
+[2.291190] (-) TimerEvent: {}
+[2.394173] (-) TimerEvent: {}
+[2.412160] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] Built target utils\n'}
+[2.416289] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target sensor_base\n'}
+[2.420302] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target sensor_range\n'}
+[2.426394] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_odometry\n'}
+[2.429729] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[2.430504] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[2.445191] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[2.495672] (-) TimerEvent: {}
+[2.599749] (-) TimerEvent: {}
+[2.681081] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[2.699645] (-) TimerEvent: {}
+[2.765156] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/motaz/iris_files/iris/build/openslam_gmapping'], 'cwd': '/home/motaz/iris_files/iris/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'motaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/motaz'), ('OLDPWD', '/home/motaz'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motaz'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/motaz/iris_files/iris/src/iris_drone/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/motaz/iris_files/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/motaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/motaz/iris_files/ardupilot/Tools/autotest:/home/motaz/iris_files/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1398,unix/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ccea288_ad7f_461d_9e36_18ab97c344e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motaz/iris_files/iris/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.799894] (-) TimerEvent: {}
+[2.822203] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.830522] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.832665] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.841849] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include/\n'}
+[2.842781] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping\n'}
+[2.843632] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher\n'}
+[2.845081] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[2.846578] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[2.846810] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[2.846934] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils\n'}
+[2.847031] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[2.847122] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[2.847216] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[2.847301] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[2.847388] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[2.847475] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[2.847562] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam\n'}
+[2.847642] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[2.847728] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[2.847853] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[2.847949] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid\n'}
+[2.848039] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[2.848167] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[2.848341] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[2.848472] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[2.848618] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor\n'}
+[2.848851] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range\n'}
+[2.852701] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[2.860606] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[2.865891] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry\n'}
+[2.872954] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[2.879493] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[2.880055] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base\n'}
+[2.880195] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[2.880288] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[2.880370] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/particlefilter\n'}
+[2.880452] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[2.880564] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log\n'}
+[2.880649] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[2.880726] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[2.880833] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[2.880950] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[2.881037] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[2.881122] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[2.881254] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[2.881424] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[2.881525] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[2.881605] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[2.881692] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[2.881783] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[2.881946] (openslam_gmapping) StdoutLine: {'line': b'-- Installing: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[2.882159] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[2.882317] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.882484] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.882657] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[2.882961] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[2.883245] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[2.890398] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[2.893299] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[2.898059] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.898439] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.899964] (-) TimerEvent: {}
+[2.900841] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[2.901289] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.901672] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.903907] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[2.907359] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[2.909757] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/lib/libutils.a\n'}
+[2.913581] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.917986] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.929792] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[3.000410] (-) TimerEvent: {}
+[3.102528] (-) TimerEvent: {}
+[3.207028] (-) TimerEvent: {}
+[3.308638] (-) TimerEvent: {}
+[3.408005] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[3.416976] (-) TimerEvent: {}
+[3.417917] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[3.507215] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[3.511958] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[3.512048] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/motaz/iris_files/iris/build/slam_gmapping', '--', '-j8', '-l8'], 'cwd': '/home/motaz/iris_files/iris/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'motaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/motaz'), ('OLDPWD', '/home/motaz'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motaz'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/motaz/iris_files/iris/src/iris_drone/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/motaz/iris_files/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/motaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/motaz/iris_files/ardupilot/Tools/autotest:/home/motaz/iris_files/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1398,unix/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ccea288_ad7f_461d_9e36_18ab97c344e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motaz/iris_files/iris/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[3.520097] (-) TimerEvent: {}
+[3.627517] (-) TimerEvent: {}
+[3.733971] (-) TimerEvent: {}
+[3.838854] (-) TimerEvent: {}
+[3.940320] (-) TimerEvent: {}
+[4.044942] (-) TimerEvent: {}
+[4.150972] (-) TimerEvent: {}
+[4.206260] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[4.251467] (-) TimerEvent: {}
+[4.296197] (slam_gmapping) CommandEnded: {'returncode': 0}
+[4.352911] (-) TimerEvent: {}
+[4.454436] (-) TimerEvent: {}
+[4.551985] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[4.564707] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/motaz/iris_files/iris/build/slam_gmapping'], 'cwd': '/home/motaz/iris_files/iris/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'motaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/motaz'), ('OLDPWD', '/home/motaz'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1434'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'motaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'motaz'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/motaz/iris_files/iris/src/iris_drone/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/motaz/iris_files/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/motaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/motaz/iris_files/ardupilot/Tools/autotest:/home/motaz/iris_files/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1398,unix/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1398'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1ccea288_ad7f_461d_9e36_18ab97c344e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/motaz/iris_files/iris/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/motaz/iris_files/iris/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[4.567535] (-) TimerEvent: {}
+[4.648540] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.653529] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[4.654629] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch\n'}
+[4.662418] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[4.663412] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[4.663618] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[4.663712] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[4.663810] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[4.663924] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[4.664020] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[4.664119] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[4.664301] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[4.664526] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[4.664788] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[4.665711] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[4.666838] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[4.667617] (-) TimerEvent: {}
+[4.668224] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[4.668558] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[4.668680] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date: /home/motaz/iris_files/iris/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[4.684575] (slam_gmapping) CommandEnded: {'returncode': 0}
+[4.769042] (-) TimerEvent: {}
+[4.925544] (-) TimerEvent: {}
+[5.038604] (-) TimerEvent: {}
+[5.110875] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[5.139026] (-) TimerEvent: {}
+[5.241942] (-) TimerEvent: {}
+[5.345906] (-) TimerEvent: {}
+[5.447103] (-) TimerEvent: {}
+[5.555429] (-) TimerEvent: {}
+[5.662464] (-) TimerEvent: {}
+[5.767979] (-) TimerEvent: {}
+[5.874066] (-) TimerEvent: {}
+[5.978558] (-) TimerEvent: {}
+[6.083461] (-) TimerEvent: {}
+[6.187441] (-) TimerEvent: {}
+[6.291269] (-) TimerEvent: {}
+[6.394408] (-) TimerEvent: {}
+[6.495725] (-) TimerEvent: {}
+[6.597127] (-) TimerEvent: {}
+[6.699639] (-) TimerEvent: {}
+[6.802386] (-) TimerEvent: {}
+[6.907018] (-) TimerEvent: {}
+[7.010317] (-) TimerEvent: {}
+[7.115665] (-) TimerEvent: {}
+[7.223076] (-) TimerEvent: {}
+[7.324229] (-) TimerEvent: {}
+[7.426468] (-) TimerEvent: {}
+[7.529782] (-) TimerEvent: {}
+[7.631058] (-) TimerEvent: {}
+[7.733554] (-) TimerEvent: {}
+[7.839879] (-) TimerEvent: {}
+[7.945078] (-) TimerEvent: {}
+[8.046914] (-) TimerEvent: {}
+[8.150907] (-) TimerEvent: {}
+[8.251637] (-) TimerEvent: {}
+[8.363972] (-) TimerEvent: {}
+[8.465125] (-) TimerEvent: {}
+[8.566552] (-) TimerEvent: {}
+[8.672015] (-) TimerEvent: {}
+[8.776438] (-) TimerEvent: {}
+[8.877608] (-) TimerEvent: {}
+[8.982183] (-) TimerEvent: {}
+[9.083087] (-) TimerEvent: {}
+[9.185915] (-) TimerEvent: {}
+[9.292093] (-) TimerEvent: {}
+[9.399375] (-) TimerEvent: {}
+[9.502813] (-) TimerEvent: {}
+[9.603925] (-) TimerEvent: {}
+[9.712150] (-) TimerEvent: {}
+[9.816724] (-) TimerEvent: {}
+[9.835719] (iris_drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/iris_drone', 'build', '--build-base', '/home/motaz/iris_files/iris/build/iris_drone/build', 'install', '--record', '/home/motaz/iris_files/iris/build/iris_drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/motaz/iris_files/iris/src/iris_drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IL:en', 'USER': 'motaz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/motaz', 'OLDPWD': '/home/motaz', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1434', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'motaz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'motaz', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/motaz/iris_files/iris/src/iris_drone/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/usr/lib/ccache:/usr/lib/ccache:/opt/ros/humble/bin:/usr/lib/ccache:/home/motaz/iris_files/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/motaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/motaz/iris_files/ardupilot/Tools/autotest:/home/motaz/iris_files/ardupilot/Tools/autotest', 'SESSION_MANAGER': 'local/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:@/tmp/.ICE-unix/1398,unix/motaz-VivoBook-ASUSLaptop-X571GT-X571GT:/tmp/.ICE-unix/1398', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1ccea288_ad7f_461d_9e36_18ab97c344e0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/home/motaz/iris_files/iris/src/iris_drone/worlds:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/motaz/iris_files/iris/build/iris_drone', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/motaz/iris_files/iris/build/iris_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.919135] (-) TimerEvent: {}
+[10.021018] (-) TimerEvent: {}
+[10.125525] (-) TimerEvent: {}
+[10.230867] (-) TimerEvent: {}
+[10.343899] (-) TimerEvent: {}
+[10.447943] (-) TimerEvent: {}
+[10.548773] (-) TimerEvent: {}
+[10.651928] (-) TimerEvent: {}
+[10.755335] (-) TimerEvent: {}
+[10.863689] (-) TimerEvent: {}
+[10.973087] (-) TimerEvent: {}
+[11.074298] (-) TimerEvent: {}
+[11.176429] (-) TimerEvent: {}
+[11.282700] (-) TimerEvent: {}
+[11.388931] (-) TimerEvent: {}
+[11.497317] (-) TimerEvent: {}
+[11.599305] (-) TimerEvent: {}
+[11.708248] (-) TimerEvent: {}
+[11.810428] (-) TimerEvent: {}
+[11.913092] (-) TimerEvent: {}
+[12.016194] (-) TimerEvent: {}
+[12.062427] (iris_drone) StdoutLine: {'line': b'running egg_info\n'}
+[12.118053] (-) TimerEvent: {}
+[12.219348] (iris_drone) StdoutLine: {'line': b'writing ../../build/iris_drone/iris_drone.egg-info/PKG-INFO\n'}
+[12.223101] (-) TimerEvent: {}
+[12.228670] (iris_drone) StdoutLine: {'line': b'writing dependency_links to ../../build/iris_drone/iris_drone.egg-info/dependency_links.txt\n'}
+[12.233447] (iris_drone) StdoutLine: {'line': b'writing entry points to ../../build/iris_drone/iris_drone.egg-info/entry_points.txt\n'}
+[12.239761] (iris_drone) StdoutLine: {'line': b'writing requirements to ../../build/iris_drone/iris_drone.egg-info/requires.txt\n'}
+[12.250115] (iris_drone) StdoutLine: {'line': b'writing top-level names to ../../build/iris_drone/iris_drone.egg-info/top_level.txt\n'}
+[12.326270] (-) TimerEvent: {}
+[12.434329] (-) TimerEvent: {}
+[12.539150] (-) TimerEvent: {}
+[12.589005] (iris_drone) StdoutLine: {'line': b"reading manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'\n"}
+[12.639860] (-) TimerEvent: {}
+[12.646632] (iris_drone) StdoutLine: {'line': b"writing manifest file '../../build/iris_drone/iris_drone.egg-info/SOURCES.txt'\n"}
+[12.649889] (iris_drone) StdoutLine: {'line': b'running build\n'}
+[12.651519] (iris_drone) StdoutLine: {'line': b'running build_py\n'}
+[12.654137] (iris_drone) StdoutLine: {'line': b'copying iris_drone/mission.py -> /home/motaz/iris_files/iris/build/iris_drone/build/lib/iris_drone\n'}
+[12.665952] (iris_drone) StdoutLine: {'line': b'running install\n'}
+[12.696354] (iris_drone) StdoutLine: {'line': b'running install_lib\n'}
+[12.741331] (-) TimerEvent: {}
+[12.847738] (-) TimerEvent: {}
+[12.884624] (iris_drone) StdoutLine: {'line': b'running install_data\n'}
+[12.890618] (iris_drone) StdoutLine: {'line': b'copying package.xml -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone\n'}
+[12.893100] (iris_drone) StdoutLine: {'line': b'copying launch/iris.launch.py -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/launch\n'}
+[12.903204] (iris_drone) StdoutLine: {'line': b'copying worlds/odeh.world -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/worlds\n'}
+[12.919821] (iris_drone) StdoutLine: {'line': b'copying urdf/iris_demo.xacro -> /home/motaz/iris_files/iris/install/iris_drone/share/iris_drone/urdf\n'}
+[12.922728] (iris_drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.948171] (-) TimerEvent: {}
+[13.051037] (-) TimerEvent: {}
+[13.082456] (iris_drone) StdoutLine: {'line': b"removing '/home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.090681] (iris_drone) StdoutLine: {'line': b'Copying ../../build/iris_drone/iris_drone.egg-info to /home/motaz/iris_files/iris/install/iris_drone/lib/python3.10/site-packages/iris_drone-0.0.0-py3.10.egg-info\n'}
+[13.109005] (iris_drone) StdoutLine: {'line': b'running install_scripts\n'}
+[13.151173] (-) TimerEvent: {}
+[13.256454] (-) TimerEvent: {}
+[13.366286] (-) TimerEvent: {}
+[13.468045] (-) TimerEvent: {}
+[13.571986] (-) TimerEvent: {}
+[13.677541] (-) TimerEvent: {}
+[13.779062] (-) TimerEvent: {}
+[13.884869] (-) TimerEvent: {}
+[13.993472] (-) TimerEvent: {}
+[14.095018] (-) TimerEvent: {}
+[14.198696] (-) TimerEvent: {}
+[14.301180] (-) TimerEvent: {}
+[14.401774] (-) TimerEvent: {}
+[14.504687] (-) TimerEvent: {}
+[14.578584] (iris_drone) StdoutLine: {'line': b'Installing ardupilot script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone\n'}
+[14.594051] (iris_drone) StdoutLine: {'line': b'Installing mission script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone\n'}
+[14.599034] (iris_drone) StdoutLine: {'line': b'Installing odom_pub script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone\n'}
+[14.600788] (iris_drone) StdoutLine: {'line': b'Installing tf_pub script to /home/motaz/iris_files/iris/install/iris_drone/lib/iris_drone\n'}
+[14.605620] (-) TimerEvent: {}
+[14.610664] (iris_drone) StdoutLine: {'line': b"writing list of installed files to '/home/motaz/iris_files/iris/build/iris_drone/install.log'\n"}
+[14.708493] (-) TimerEvent: {}
+[14.811057] (-) TimerEvent: {}
+[14.918416] (-) TimerEvent: {}
+[15.008432] (iris_drone) CommandEnded: {'returncode': 0}
+[15.020777] (-) TimerEvent: {}
+[15.083007] (iris_drone) JobEnded: {'identifier': 'iris_drone', 'rc': 0}
+[15.093222] (-) EventReactorShutdown: {}
