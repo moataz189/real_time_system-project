@@ -14,8 +14,8 @@ from utils.general import check_img_size, check_requirements, check_imshow, non_
     scale_coords, xyxy2xywh, strip_optimizer, set_logging, increment_path
 
 class YOLOv7ROS(Node):
-    def __init__(self, target_object="chair"):
-        super().__init__('yolov7_ros')
+    def _init_(self, target_object="chair"):
+        super()._init_('yolov7_ros')
         self.subscription = self.create_subscription(
             Image,
             '/camera/image_raw',
@@ -70,15 +70,11 @@ class YOLOv7ROS(Node):
 
                 # Print detected objects and draw bounding boxes
                 for *xyxy, conf, cls in reversed(det):
-                    # Replace traffic light, kite, and tv with chair
-                    if self.names[int(cls)] in ["traffic light", "kite", "tv"]:
-                        self.names[int(cls)] = "chair"
-
                     label = f'{self.names[int(cls)]} {conf:.2f}'
                     print(f'Detected: {label} at {xyxy}')  # Print detection
                     plot_one_box(xyxy, cv_image, label=label, color=self.colors[int(cls)], line_thickness=1)
 
-                    # Publish coordinates only for the target object (including replaced "chair")
+                    # Publish coordinates only for the target object
                     if self.names[int(cls)] == self.target_object:
                         # Calculate the center of the bounding box
                         x_center = (xyxy[0] + xyxy[2]) / 2
@@ -110,7 +106,6 @@ def main(args=None):
     yolov7_ros.destroy_node()
     rclpy.shutdown()
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     import sys
     main(sys.argv)
-
