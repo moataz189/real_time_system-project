@@ -105,32 +105,48 @@ How to run the code:
 #Terminal-1
 
 cd ~/iris_files/iris/
+
 colcon build
+
 source ~/iris_files/iris/install/setup.bash
+
 ros2 launch iris_drone iris.launch.py
+
 
 #Terminal-2
 cd ~/iris_files/yolov7
+
 python3 ros2_yolo.py or python3 ros2_yolo.py chair
 
 #Terminal-3
 cd ~/iris_files/iris/
+
 colcon build
+
 source ~/iris_files/iris/install/setup.bash
+
 **If you want to run code that receives predefined points and searches based on those points, use this command in the Terminal:
 
 ros2 run iris_drone mission
+
 **If you want to perform the task by receiving points in real-time, use this command:
+
 ros2 run iris_drone real_time_node
 
 If you want to add search points in the mission code, use this example:
+
 self.GotoLocation(-35.3630969, 149.1651725, alt)
+
 self.GotoLocation(-35.3630969, 149.1651725, alt)
+
 self.GotoLocation(-35.3630969, 149.1651725, alt)
+
 self.GotoLocation(-35.3630969, 149.1651725, alt)
 
 If you want to send points in real-time, open a new terminal and execute the following command:
+
 ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.363244, y: 149.1652153, z: 5.0}"
+
 ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.3630969, y: 149.1651725, z: 5.0}"
 
 
