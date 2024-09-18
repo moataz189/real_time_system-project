@@ -91,3 +91,12 @@ colcon build
 source ~/iris_files/iris/install/setup.bash
 
 source ~/.bashrc
+
+
+Copy the ros2_yolo file to the yolov7 directory.
+
+Download from this link: https://github.com/leonhartyao/gazebo_models_worlds_collection/tree/master
+
+Download the MODELS directory, and then copy it to the following path:
+iris_files/iris/src/iris_drone/worlds
+
