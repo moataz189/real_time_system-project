@@ -70,15 +70,22 @@ Installing the required packages for the project.
 `cd ~/iris_files/`
 
 2. Install ArduPilot Gazebo:
+   
 `cd ardupilot_gazebo/`
+
 `mkdir build`
+
 `cd build`
+
 `cmake ..`
+
 `make -j4`
+
 `sudo make install`
+
 `echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
 
-3. Clone ArduPilot:
+4. Clone ArduPilot:
 
 `cd ~/iris_files/`
 
