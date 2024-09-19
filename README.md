@@ -85,7 +85,7 @@ Installing the required packages for the project.
 
 `echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc`
 
-4. Clone ArduPilot:
+3. Clone ArduPilot:
 
 `cd ~/iris_files/`
 
@@ -167,7 +167,7 @@ Terminal 1:
 
 `cd ~/iris_files/iris/`
 
-`colcon build
+`colcon build`
 
 `source ~/iris_files/iris/install/setup.bash`
 
