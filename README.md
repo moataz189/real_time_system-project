@@ -93,8 +93,8 @@ The directories YOLOv7, ArduPilot, and ArduPilot_Gazebo are not opening. You nee
 
 `cd ~/iris_files/ardupilot/`
 
-`git submodule update --init --recursive
-`
+`git submodule update --init --recursive`
+
 `Tools/environment_install/install-prereqs-ubuntu.sh -y #`
 
 `./waf configure --board sitl`
