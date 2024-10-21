@@ -214,3 +214,15 @@ For real-time point sending, open a new terminal and execute:
 `ros2 topic pub /destination_coordinates geometry_msgs/Point "{x: -35.3630969, y: 149.1651725, z: 5.0}"`
 
 
+
+Sources:  
+
+https://github.com/ArduPilot/ardupilot_gazebo/blob/main/models/iris_with_ardupilot/model.sdf  
+
+https://github.com/leonhartyao/gazebo_models_worlds_collection/tree/master/worlds  
+
+https://github.com/PX4/PX4-Autopilot  
+
+https://github.com/WongKinYiu/yolov7
+
+
