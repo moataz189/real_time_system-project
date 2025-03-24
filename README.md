@@ -13,6 +13,14 @@ Developed by: **Moataz Odeh & Adan Sulaimani**
 
 ---
 
+## 📹 Project Demo Videos
+- [🪑 Chair not detected + real-time point received](https://youtu.be/mzExcvRkEYE)
+- [❌ Failed to detect the chair](https://youtu.be/Ng47ek1xnxc)
+- [📍 Receives real-time point then switches to mission](https://youtu.be/V0LsilZO6os)
+- [🎮 Project in real-time system simulation](https://youtu.be/NWvGlOKumi0)
+
+---
+
 ## 📦 Installation Guide
 
 ### 🔧 ROS 2 (Humble) Installation
